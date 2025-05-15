@@ -1,0 +1,34 @@
+name: solana_eyewear_website_new
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  url_launcher: ^6.2.5
+  flutter_stripe: ^9.5.0
+  http: ^1.1.0  
+  visibility_detector: ^0.4.0+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/Picture1.jpg
+    - assets/Picture2.jpg
+    - assets/Picture3.jpg
+    - assets/Picture4.jpg
+    - assets/Picture5.jpg
+    - assets/Picture6.jpg
+    - assets/Picture7.jpg
