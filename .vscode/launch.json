@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "solana_eyewear_website_new",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "solana_eyewear_website_new (Flutter Pixel 6)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "deviceId": "Pixel_6"
+        },
+        {
+            "name": "solana_eyewear_website_new (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "solana_eyewear_website_new (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
